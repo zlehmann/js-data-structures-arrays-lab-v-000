@@ -30,3 +30,9 @@ function prependDriver(name) {
    remove_driver.pop();
    return remove_driver;
  }
+
+ function removeFirstDriver() {
+   let remove_fdriver = drivers.slice();
+   remove_fdriver.unshift();
+   return remove_fdriver;
+ }
