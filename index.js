@@ -33,6 +33,6 @@ function prependDriver(name) {
 
  function removeFirstDriver() {
    let remove_fdriver = drivers.slice();
-   remove_fdriver.unshift();
+   remove_fdriver.shift();
    return remove_fdriver;
  }
